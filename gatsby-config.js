@@ -4,6 +4,7 @@ module.exports = {
     description: `A demo and use case for react-csheets, a react library to build cheat sheets using react`,
     author: `@pfftdammitchris`,
   },
+  pathPrefix: '/react-csheets-demo',
   plugins: [
     `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
