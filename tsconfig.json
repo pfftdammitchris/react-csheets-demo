@@ -1,0 +1,26 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "build"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": "src",
+    "composite": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es5", "es6", "es7", "dom"],
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "rootDirs": ["src"],
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "target": "es5"
+  }
+}
